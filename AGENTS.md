@@ -159,6 +159,38 @@ Use clear English. Tagalog/Taglish can be used for Filipino marketing captions o
 - Do not expose secrets in files, prompts, logs, screenshots, or examples.
 - If credentials are needed, tell the user where to place them safely.
 
+## Automatic Memory Update Rule
+
+At the end of every Codex task, check if the conversation created any stable reusable knowledge.
+
+Update `MEMORY.md` only when the new information is:
+
+- Stable
+- Reusable
+- Helpful for future automation work
+- Related to Mervin's workflow, skills, tools, projects, or standards
+
+Do not update `MEMORY.md` for:
+
+- Temporary bugs
+- One-time errors
+- API keys
+- Passwords
+- Tokens
+- Private credentials
+- Random experiments
+
+If memory should be saved:
+
+1. Open `MEMORY.md`.
+2. Add the new lesson under the correct section.
+3. Avoid duplicates.
+4. Keep wording simple and professional.
+5. Commit the change with a clear message like:
+   `Update automation memory`
+
+Before final response, mention whether `MEMORY.md` was updated or not.
+
 ## Best Default Behavior
 
 When Mervin asks for a Codex prompt, produce a clean, structured prompt that tells Codex exactly what to inspect, update, preserve, and verify.
