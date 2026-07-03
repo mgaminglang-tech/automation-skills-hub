@@ -1,0 +1,57 @@
+{
+  "name": "Mervin Jose Gaa",
+  "role": "AI Automation & Workflow Systems Specialist",
+  "portfolio": "https://mervinautomation.it.com/",
+  "skill_categories": {
+    "AI & Automation": [
+      "n8n",
+      "Zapier",
+      "Make.com",
+      "AI Agents",
+      "Prompt Engineering",
+      "Workflow Documentation",
+      "Error Handling",
+      "Webhooks"
+    ],
+    "APIs & Integrations": [
+      "REST APIs",
+      "JSON",
+      "HTTP Requests",
+      "Bearer Tokens",
+      "API Keys",
+      "OAuth basics",
+      "Google Sheets API",
+      "Airtable API",
+      "Supabase"
+    ],
+    "CRM & Operations": [
+      "Airtable CRM",
+      "GoHighLevel",
+      "Lead Intake",
+      "Submission Tracking",
+      "Renewal Management",
+      "Slack Approval Workflows"
+    ],
+    "Voice AI": [
+      "Vapi.ai",
+      "Retell AI",
+      "Voice Agent Design",
+      "Lead Qualification Scripts"
+    ],
+    "Dashboards & Data": [
+      "Looker Studio",
+      "Retool",
+      "Supabase",
+      "Google Sheets",
+      "Automation Logs",
+      "KPI Dashboards"
+    ],
+    "Web & Portfolio": [
+      "React",
+      "Vite",
+      "Tailwind CSS",
+      "Vercel",
+      "Replit"
+    ]
+  }
+}
