@@ -84,7 +84,7 @@ For n8n workflows, use these default standards:
 7. Add error handling for API failures and missing fields.
 8. Add logging for important results.
 9. Use fallback logic when AI output is invalid.
-10. Keep workflows easy to understand and maintain.
+10. Keep workflows easy to understand and maintain.\n11. After any multi-item fan-out, reduce back to one item before one-time actions such as follow-up tasks, notifications, logs, and webhook responses.
 
 Preferred node naming examples:
 
