@@ -110,6 +110,15 @@ Avoid vague node names like:
 
 ---
 
+## Retool and Supabase Dashboard Standards
+
+- Confirm every Retool database resource points to the intended Supabase project before debugging dashboard values.
+- Replace mock backend functions with live queries before validating production metrics.
+- When a dashboard view does not expose computed fields, derive overdue state from the task due date and terminal task statuses, and derive escalation display from the escalation level.
+- Preserve existing credentials when correcting resource hosts, ports, usernames, queries, or frontend transformations.
+
+---
+
 ## CRM Automation Pattern
 
 Default CRM workflow logic:
