@@ -119,6 +119,15 @@ Avoid vague node names like:
 
 ---
 
+## Slack Action and Status Sync Standards
+
+- Before mapping one business status across different tables, inspect each table's check constraint and use only allowed values.
+- Treat the primary business record as the source of truth, then update dependent tasks, audit history, and unresolved escalations in one controlled workflow.
+- Protect Slack and dashboard quick actions from duplicate clicks by rejecting updates when the record is already in a terminal state.
+- Use a stable button payload containing the action ID, record ID, reference ID, and requested status.
+
+---
+
 ## CRM Automation Pattern
 
 Default CRM workflow logic:
